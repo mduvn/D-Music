@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+.up-menu{
+    
+    background: linear-gradient(to right, rgb(45, 23, 66) ,rgb(69, 23, 113),rgb(77, 17, 133));
+    width: 100%;
+    height: 65px;
+    display: flex;
+}
+.up-menu-logo{
+    margin-left: 20px;
+    margin-top: 10px;
+   
+    height: 45px;
+    width: 45px;
+}
+.dslogo{
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+}
+.up-menu-search-bar{
+    display: flex;
+    width: 600px;
+    margin-left: 600px;
+}
+.home-logo-div{
+    
+    margin-top: 9px;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(155, 52, 252, 0.139);
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.home-logo-div i{
+    color: blueviolet;
+    scale: 1.5;
+    margin-left: 13px;
+    margin-top: 14px;
+}
+.home-logo-div:hover{
+    transition: 0.5s;
+    scale: 1.1;
+    cursor: pointer;
+    background-color: rgba(194, 192, 192, 0.041);
+}
+.search-bar{
+    margin-left: 13px;
+    margin-top: 7px;
+       
+       border-radius: 50px;
+      height: 50px;
+      width: 450px;
+}
+.search-bar-text{
+    background-color: rgba(89, 30, 145, 0.351);
+    padding: 0px 0px 0px 50px;
+   border: none;
+     border-radius: 50px;
+    height: 50px;
+    width: 450px;
+}
+.search-bar i{
+    color: blueviolet;
+    margin-left: 15px;
+    scale: 1.5;
+    margin-top: 16px;
+    position: absolute;
+}
+.info{
+    display: flex;
+    width: 300px;
+    margin-left: 355px;
+}
+
+.p-photo{
+    box-shadow: 1px 1px 1px;
+    margin-top: 5px;
+    height: 55px;
+    border-radius: 50px;
+    margin-left: 238px;
+    width: 55px;
+    background-color: rgba(155, 28, 164, 0.201);
+}
+.p-photo img{
+    border-radius: 50px;
+    margin-top: 7px;
+    margin-left: 7px;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+}
+.p-photo:hover{
+    scale: 1.1;
+    background-color: rgba(137, 43, 226, 0.15);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.main-menu{
+    display: flex;
+    width: 100%;
+    height: 888px;
+    background: linear-gradient(to right ,rgb(87, 51, 120),rgb(89, 22, 152),rgb(105, 21, 184),rgb(118, 9, 220));
+}
+.left-menu{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    margin-left: 30px;
+    border-radius: 80px;
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+    width: 400px;
+    height: 850px;
+}
+.left-menu-header{
+    display: flex;
+     
+    margin-top: 10px;
+    margin-left: 22px;
+    width: 355px;
+    height: 95px;
+}
+.library{
+    color: white;
+    margin-top: 45px;
+    margin-left: 125px;
+}
+.playlist-menu{
+     flex-direction: column; 
+     display: flex;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 50px;
+    width: 350px;
+    height: 700px;
+    
+}
+.playlist1{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+    border-radius: 15px;
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+    margin-left: 15px;
+    height: 100px;
+    width: 320px;
+    margin-top: 35px;
+   display: flex;
+}
+.playlist1 img{
+    border-radius: 15px;
+    justify-content: center;
+    width: 100px;
+}
+.playlist1 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+.playlist1:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    scale: 1.1;
+}
+.playlist2{
+    display: flex;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+     background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+     border-radius: 15px;
+    margin-left: 15px;
+    height: 100px;
+    width: 320px;
+    margin-top: 30px;
+}
+.playlist2 img{
+    border-radius: 15px;
+    justify-content: center;
+    width: 100px;
+}
+.playlist2 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+.playlist2:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+.playlist3{
+    display: flex;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+     background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+     border-radius: 15px;
+    margin-left: 15px;
+    height: 100px;
+    width: 320px;
+    margin-top: 30px;
+}
+.playlist3 img{
+    border-radius: 15px;
+    justify-content: center;
+    width: 100px;
+}
+.playlist3 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+.playlist3:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    scale: 1.1;
+}
+.playlist4{
+    display: flex;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+     background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+     border-radius: 15px;
+    margin-left: 15px;
+    height: 100px;
+    width: 320px;
+    margin-top: 30px;
+}
+.playlist4 img{
+    border-radius: 15px;
+    justify-content: center;
+    width: 100px;
+}
+.playlist4 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+.playlist4:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+.playlist5{
+    display: flex;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+     background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+     border-radius: 15px;
+    margin-left: 15px;
+    height: 100px;
+    width: 320px;
+    margin-top: 30px;
+}
+.playlist5 img{
+    border-radius: 15px;
+    justify-content: center;
+    width: 100px;
+}
+.playlist5 h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+.playlist5:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+.right-menu{
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+    height: 865px;
+     width: 1450px;
+     margin-top: 10px;
+     margin-left: 20px;
+}
+.profile{
+    display: flex;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+    border-radius: 50px;
+    width: 100%;
+    height: 270px;
+}
+.profile-img{
+    width: 300px;
+    height: 300px;
+}
+.profile-img img{
+    margin-top: 45px;
+    margin-left: 80px;
+    width: 200px;
+    border-radius: 50%;
+}
+.profile-about h1{
+    
+    margin-left: 20px;
+    color: white;
+    font-size: 70px;
+}
+.profile-about h2{
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.profile-about{
+    width: 100%;
+}
+.profile-about p{
+    
+    color: white;
+    margin-left: 25px;
+    display: inline-block;
+}
+.profile-about p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.profile-menu{
+    display: flex;
+    width: 100%;
+    height: 595px;
+}
+.profile-left-menu{
+    border: solid 5px rgba(0, 0, 0, 0.2);
+    margin-left: 40px;
+    margin-top: 45px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+    width: 600px;
+    height: 500px;
+}
+.profile-left-header{
+    display: flex;
+    width: 100%;
+    height: 95px;
+}
+.profile-left-header h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 115px;
+}
+.profile-tracks1{
+    display: flex;
+    border-radius: 20px;
+    margin-left: 17px;
+    width: 550px;
+    height: 80px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+}
+.profile-tracks1 img{
+    justify-content: center;
+    width: 90px;
+    border-radius: 20px;
+}
+.profile-tracks1 h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.profile-tracks1:hover{
+    cursor: pointer;
+    scale: 1.05;
+    transition: 0.8s;
+}
+.profile-tracks2{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 17px;
+    border-radius: 20px;
+    width: 550px;
+    height: 80px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+}
+.profile-tracks2 img{
+    justify-content: center;
+    width: 90px;
+    border-radius: 20px;
+}
+.profile-tracks2 h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.profile-tracks2:hover{
+    cursor: pointer;
+    scale: 1.05;
+    transition: 0.8s;
+}
+.profile-tracks3{
+    display: flex;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 550px;
+    margin-left: 17px;
+    height: 80px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+}
+.profile-tracks3 h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.profile-tracks3 img{
+    justify-content: center;
+    width: 90px;
+    border-radius: 20px;
+}
+.profile-tracks3:hover{
+    cursor: pointer;
+    scale: 1.05;
+    transition: 0.8s;
+}
+.profile-tracks4{
+    display: flex;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 17px;
+    width: 550px;
+    height: 80px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+}
+.profile-tracks4 img{
+    justify-content: center;
+    width: 90px;
+    border-radius: 20px;
+}
+.profile-tracks4 h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.profile-tracks4:hover{
+    cursor: pointer;
+    scale: 1.05;
+    transition: 0.8s;
+}
+
+
+
+
+
+.profile-right-menu{
+    
+    border: solid 5px rgba(0, 0, 0, 0.2);
+    margin-left: 170px;
+    margin-top: 45px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(119, 4, 226, 0.154));
+    width: 600px;
+    height: 500px;
+}
+.profile-right-header{
+    display: flex;
+}
+.profile-right-header h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.profile-right-playlist-container{
+    display: flex;
+    width: 100%;
+    height: 422px;
+}
+.profile-right-playlist{
+   
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 200px;
+    height: 180px;
+     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(104, 10, 192, 0.503));
+}
+.profile-right-playlist img{
+    margin-top: 12px;
+    border-radius: 30px;
+    justify-content: center;
+    margin-left: 35px;
+    width: 130px;
+}
+.profile-right-playlist h1{
+    margin-left: 55px;
+    font-size: 15px;
+    color: white;
+}
+.profile-right-playlist:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    scale: 1.02;
+}
+.profile-right-playlist1{
+    margin-left: 110px;
+     margin-top: 30px;
+     width: 200px;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to top ,rgba(190, 154, 223, 0.268),rgba(118, 9, 220, 0.583),rgba(118, 9, 220, 0.159),rgba(104, 10, 192, 0.503));
+}
+.profile-right-playlist1 img{
+    margin-top: 12px;
+    border-radius: 30px;
+    justify-content: center;
+    margin-left: 35px;
+    width: 130px;
+}
+.profile-right-playlist1 h1{
+    margin-left: 35px;
+    font-size: 15px;
+    color: white;
+}
+.profile-right-playlist1:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    scale: 1.02;
+}
